@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&__display=swap');
+
+button:hover {
+  cursor: pointer;
+}
+
+.button {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  width: fit-content;
+
+  &__outlined__header {
+    background: transparent;
+    border: 1px solid #242424;
+  }
+
+  &__contained__header {
+    background: #242424;
+    border: none;
+    color: white;
+  }
+
+  &__outlined__footer {
+    color: #EBEBEB;
+    background: transparent;
+    border: none;
+  }
+
+  &__contained__footer {
+    background: #242424;
+    border: 1px solid #EBEBEB;
+    color: #EBEBEB;
+  }
+
+  &__outlined__header:disabled {
+    cursor: default;
+    color: #242424;
+    opacity: 25%;
+  }
+
+  &__contained__login {
+    width: 100%;
+    margin: 16px 0 24px 0;
+    background: #242424;
+    border: none;
+    color: white;
+  }
+
+  &__contained__login:disabled {
+    opacity: 50%;
+    cursor: default;
+  }
+
+  &__contained__header:disabled {
+    opacity: 50%;
+    cursor: default;
+  }
+
+  &__upload {
+    background: transparent;
+    border: 1px solid #242424;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+}
+

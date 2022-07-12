@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.footer {
+    background: #242424;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.copyright__info {
+    font-family: 'Inter', sans-serif;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    width: 100%;
+    max-width: 1070px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (max-width: 1080px) {
+    .copyright__info {
+        padding: 24px 30px;
+    }
+}

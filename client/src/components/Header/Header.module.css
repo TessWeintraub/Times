@@ -1,0 +1,6 @@
+.header {
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
