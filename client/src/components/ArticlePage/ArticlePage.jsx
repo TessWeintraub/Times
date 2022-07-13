@@ -8,14 +8,11 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 import ArticlePageClasses from "./ArticlePage.module.css";
-import { ArticleListMock } from "../../mockdata/articleData";
 import axios from "axios";
 
 const ArticlePage = () => {
   const navigate = useNavigate();
   const params = useParams();
-  // const thisArticle = ArticleListMock.find((item) => item.id === Number(params.id))
-
   const [thisArticle,setThisArticle] = useState()
 
   useEffect(()=>{

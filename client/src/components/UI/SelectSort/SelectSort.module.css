@@ -1,0 +1,64 @@
+.container_label{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+.container{
+    position: relative;
+}
+.container_select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E6E8EA;
+    border-radius: 3px;
+    padding: 18px;
+    max-width: 300px;
+}
+.container_select_placeholder{
+    color: #3E4C5966;
+    font-size: 16px;
+}
+.container_options{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    position: absolute;
+    top: 80px;
+    border: 1px solid #E6E8EA;
+    border-radius: 3px;
+    width: 300px;
+    max-height: 155px;
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+.container_option{
+    display: flex;
+    padding: 18px;
+}
+.container_option span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #3E4C5966;
+}
+.container_option:hover,
+.container_option:hover span{
+    background: #F7F9FC;
+    color: #2B3844;
+}
+.container_select_active{
+    color: #2B3844;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+.container_options::-webkit-scrollbar {
+    width: 6px;
+}
+.container_options::-webkit-scrollbar-thumb {
+    background-color: #D2D2D2;
+    border-radius: 29px;
+}
